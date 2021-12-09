@@ -1,9 +1,10 @@
 #!/bin/bash
 
-while:
+while :
 do
 	echo 方向を入力してください
 	read key
+
 	if [ "$key" = "s" ]; then
 		echo まっすぐ進む
 	elif [ "$key" = "d" ]; then
