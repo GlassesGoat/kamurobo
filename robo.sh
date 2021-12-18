@@ -16,7 +16,7 @@ echo out > /sys/class/gpio/gpio23/direction
 
 while :
 do
-	echo 方向を入力してください
+	echo "方向を入力してください"
 	read key
 
 	if [ "$key" = "s" ]; then
